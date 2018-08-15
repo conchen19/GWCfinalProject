@@ -89,16 +89,15 @@
     margin-right: auto;
     width: 50%;
  }
-=======
+
 div.gallery {
     margin: 15px;
-    border: 5px solid #ccc;
     float: left;
     width: 330px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 5px solid #ccc;
 }
 
 div.gallery img {
@@ -109,4 +108,29 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("bp2.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quote {
+    font-size: 3vw;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(53, 51, 63);
+    padding: 15px;
+    font-family: fantasy;
+    color: white;
 }
