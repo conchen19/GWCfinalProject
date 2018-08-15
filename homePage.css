@@ -59,6 +59,37 @@
     display: block;
 }
 
+
+#title {
+    position: relative;
+    height: 10%;
+    width: 100%;
+    align-content: center
+}
+
+#bp {
+
+    width: 100%;
+    height: 10%;
+}
+
+#titleText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw; 
+    color: white; 
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+=======
 div.gallery {
     margin: 15px;
     border: 5px solid #ccc;
