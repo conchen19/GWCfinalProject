@@ -115,7 +115,8 @@ div.desc {
     background-image: url("bp2.jpeg");
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
+    max-height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
