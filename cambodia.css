@@ -1,0 +1,36 @@
+span.b {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin-left: 10px; 
+}
+
+span.a {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
+span.c {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
+span.d {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
