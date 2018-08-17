@@ -34,3 +34,13 @@ span.d {
     margin: 10px; 
 }
 
+#hthLinks {
+    color: rgb(143, 174, 192);
+    text-decoration: none;
+}
+
+#hthLinks:hover {
+    color: rgb(39, 140, 199); 
+    text-decoration:none; 
+    cursor: pointer;  
+}
