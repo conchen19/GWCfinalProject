@@ -133,6 +133,6 @@ div.desc {
     background-color:rgb(53, 51, 63);
     padding: 15px;
     font-family: "fantasy";
-    font-style: italic;
+    font-style: italic; 
     color: white;
 }
