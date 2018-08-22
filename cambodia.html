@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/png">
+    <title>WorldWide Awareness</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="cambodia.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homePage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* @-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+</style>
+
+</head>
+
+<body style="background-color: rgba(28, 25, 58, 0.973)">
+
+<div class="navbar">
+  <a href="homePage.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Issues 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="cambodia.html">Cambodia: Water Quality</a>
+      <a href="haiti.html">Haiti: Poverty</a>
+      <a href="india.html">India: Violence Against Women</a>
+      <a href="somalia.html">Somalia: Lack of Education</a>
+    </div>
+  </div> 
+  <a href="aboutUs.html">About the Creators</a>
+</div>
+
+<h1 style="margin-left: 24%; font-size: 47px;"> <a style="text-decoration: none; color: #3f8048;" href="homePage.html"><img src="Images/eLogo.png" style="width: 11%; height: 11%;"> Worldwide Awareness</a></h1>
+<br> <br>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Images/cambodiaCarousel1.jpg" style="width:1200px;height:300px;">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Images/cambodiaCarousel2.jpg" style="width:1200px;height:300px;">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Images/cambodiaCarousel3.jpg" style="width:1200px;height:300px;">
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</div>
+
+  <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;">Problem </h2>
+  <div>
+      <span class="b" style="color: white;font-size: 24px">
+          <p> Cambodia does not lack water but when it comes clean drinking water, it is a different story. This lack of access 
+            is especially problematic in rural areas; this is an issue because 80% of the population lives in rural areas. Even though 
+            most people live in the countryside, wealthy urban areas have 22 times more access to clean water than them. As a result, 1 
+            in 4, meaning  4 million out of the 16 million Cambodians, do not have access to clean drinking water. 6 million Cambodians
+            lack access to improved sanitation.
+          </p>
+      </span>
+      <span class="b" style="float: right; margin-right: 1%">
+          <img src="./Images/cambodiaMap.jpg" style="width: 100%; height: 80%">
+          <p style="color: lightgray; text-align: center; font-size: 20px">
+              <q>Deaths from unsafe water per million per year</q>
+          </p>
+      </span>
+  </div>
+  <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;">Cause </h2>
+  <div>
+      <span class="a" style="float: center">
+          <img src="./Images/cambodiaPagePic1.jpg" style="width: 95%;height: 80%">
+          <p style="color: lightgray; text-align: center; margin-right: 12%; font-size: 20px">
+              <q>Dirty water from a factory</q>
+          </p>
+      </span>
+      <span class="a" style="color: white;font-size: 24px;float: right">
+          <p style="margin-right: 3%;"> The main cause of water pollution is industry. Factories, especially those that produce textiles, dump tons of toxic sludge into waterways everyday. Moreover, Cambodia does not have enough resources to implement permanent, large-scale change. As a result, people who live in the rural areas are often left out of policy-making, not just from lack of representation, but also because of lack of resources. Because the textile industry is so important to its economy, Cambodians cannot give it up, even if it means polluting their clean water supply.   </p>
+      </span>
+      </span>
+  </div>
+  <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;">Impact </h2>
+  <div>
+      <span class="c" style="color: white;font-size: 24px">
+          <p> Clean water is vital for survival and unfortunately Cambodia does not have enough of it; the effects are profound. For the 80% of the population living in rural areas, agriculture is the industry. Because the water is polluted, crops cannot be grown successfully and farms become polluted as well. Moreover, life revolves around the rivers; people need it to water their crops, do laundry, bathe, etc. When the water becomes polluted, their livelihoods are threatened as well. In Cambodia, disease caused by lack of clean water accounts for one-fifth of deaths of children aged five and younger. Furthermore, 40% of primary schools do not  have access to water and 35% of health centers do not either. It is clear that polluted water affects all aspects of life. </p> </span>
+      <span class="c" style="float: right">
+          <img src="./Images/cambodiaSadImage.JPG" style="width: 80%;height: 90%">
+          <p style="color: lightgray; text-align: center; margin-right: 20%; font-size: 20px">
+              <q>Many children become sick due to the lack of access to clean water</q>
+          </p>
+      </span>
+  </div>
+
+<br> 
+
+  <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;">How to Help </h2>
+  <div>
+      <span class="d" style="float: center">
+          <img src="./Images/cambodiaHopeImage.jpg" style="width: 100%;height: 80%">
+          <p style="color: lightgray; text-align: center; margin-right: 3.5%; font-size: 20px">
+              <q>P&amp;G's Children&#39;s Safe Drinking Water Program</q>
+          </p>
+      </span>
+      <span class="d" style="color: white;font-size: 24px;float: right"> 
+        <p style="margin-right: 3%;"> In 2004, Procter &amp; Gamble created the non-for-profit P&amp;G Children&#39;s Safe Drinking Water Program to raise awareness of the global clean drinking water crisis and to help address it by providing P&amp;G water purification packets. This is just one of the many organizations that have started addressing Cambodia's water crisis. Many of them provide things like water filtration, water purification devices, and resources for education. Here are some of these organizations: <a id="hthLinks" href="https://water.org/our-impact/cambodia"> water.org</a>, <a id="hthLinks" href="https://www.unicef.org/cambodia/8.WASH.pdf"> Unicef</a>, and <a id="hthLinks" href="https://www.wateraid.org/us/where-we-work/cambodia "> WaterAid</a>.</p>
+      </span>
+  </div>
+  <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;"> Virtual Reality </h2>
+  <p style="color: white; text-align:left;font-size: 24px; margin-left: 1%;"> Take a look at this issue using virtual reality </p>
+  <p style="color: white;text-align: left;font-size: 24px; margin-left: 1%;"> Instructions: use a QR code scanner to scan this image. Then place your phone into the VR glasses. Do not use if prone
+      to headaches.</p>
+  <p style="color: white;text-align: left;font-size: 24px; margin-left: 1%;"> Description: </p>
+  <p style="color: white;text-align: left;font-size: 20px; margin-left: 1%;"> Fishing villages have been heavily impacted by water pollution. 
+  </p>
+  <div id="cambodiaVR">
+      <img src="./QR/cambodiaqr.png" style="margin-left: 1%">
+      <img src="./QR/cambodiaqr2.png" style="margin-left: 20%">
+  </div>
+
+  <div id="worksCited">
+      <h2 style="color: lightgray;text-align: left;font-size: 46px; margin-left: 1%;"> Works Cited </h2>
+      <p style="color: white;font-size: 20px; margin-left: 1%;">https://water.org/our-impact/cambodia/
+          <br> https://www.unicef.org/cambodia/8.WASH.pdf 
+          <br> http://apneaap.org/
+          <br> https://www.wateraid.org/us/where-we-work/cambodia
+          <br> https://goo.gl/Pzo4Gx 
+          <br> https://goo.gl/yH31nB
+          <br> https://journeytoasmilingheart.wordpress.com/
+          <br> https://goo.gl/fsFsbP
+          <br> http://www.dwa.gov.za/Dir_WS/DWQR/subscr/ViewComDoc.asp?Docid=494
+          <br> https://goo.gl/NVvjkn
+          <br>  http://whacinc.com/home.html
+      </p>
+  </div>
+</body>
+</html> 
+
+

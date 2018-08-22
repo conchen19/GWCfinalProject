@@ -1,0 +1,46 @@
+span.b {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin-left: 10px; 
+}
+
+span.a {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
+span.c {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
+span.d {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    padding: 5px;      
+    margin: 10px; 
+}
+
+#hthLinks {
+    color: rgb(143, 174, 192);
+    text-decoration: none;
+}
+
+#hthLinks:hover {
+    color: rgb(39, 140, 199); 
+    text-decoration:none; 
+    cursor: pointer;  
+}
