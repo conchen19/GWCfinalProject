@@ -1,4 +1,4 @@
-span.b {
+/* span.b {
     display: inline-block;
     vertical-align: top;
     width: 600px;
@@ -32,4 +32,25 @@ span.d {
     height: 600px;
     padding: 5px;      
     margin: 10px; 
+} */
+
+
+#individualContainers {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#captionText {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pics{
+    border: solid 10px #1c193af8;
+    background-color: #373D72;
+    padding: 15px;
 }
